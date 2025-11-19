@@ -24,13 +24,13 @@ echo "Enter the ProsperOps Service Account Email:"
 read SERVICE_ACCOUNT_EMAIL
 
 echo ""
-echo "Enter the Project:Dataset containing the DETAILED USAGE export:"
-echo "Format: project-id:dataset_name"
+echo "Enter the Project.Dataset containing the DETAILED USAGE export:"
+echo "Format: project-id.dataset_name"
 read DETAILED_DATASET_ID
 
 echo ""
-echo "Enter the Project:Dataset containing the PRICING export:"
-echo "Format: project-id:dataset_name"
+echo "Enter the Project.Dataset containing the PRICING export:"
+echo "Format: project-id.dataset_name"
 read PRICING_DATASET_ID
 
 # --- 2. PREPARE VARIABLES ---
