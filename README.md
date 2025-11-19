@@ -2,7 +2,7 @@
 
 This repository contains the automated onboarding script for ProsperOps. This script will configure the necessary IAM permissions and Custom Roles required for the ProsperOps platform to optimize your Google Cloud environment.
 
-## Quick Start
+## Savings Analysis Onboarding Quick Start
 
 Click the button below to open this repository directly in Google Cloud Shell. This will automatically clone the script and open it in the editor.
 
@@ -18,3 +18,7 @@ Click the button below to open this repository directly in Google Cloud Shell. T
 
 ```bash
 chmod +x prosperops_onboard.sh && ./prosperops_onboard.sh
+
+## Discount Managemenet Onboarding Quick Start
+
+Click the button below to open the repository directly in Google Cloud Shell. This will automatically clone the script and open it in the editor.
