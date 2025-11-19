@@ -28,6 +28,12 @@ If you have already onboarded for a Savings Analysis and need to update permissi
   <img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open Upgrade Script in Cloud Shell">
 </a>
 
-**Run Command:**
+## Instructions
+
+1.  **Click the button above.** A new Google Cloud Shell window will open.
+2.  Wait for the Cloud Shell to provision and for the repository to clone.
+3.  In the terminal window at the bottom of the screen, **copy and paste the following command** and press **Enter**:
+
 ```bash
-chmod +x prosperops_upgrade.sh && ./prosperops_upgrade.sh
+chmod +x prosperops_onboard.sh && ./prosperops_onboard.sh
+```
