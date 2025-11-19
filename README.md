@@ -35,5 +35,5 @@ If you have already onboarded for a Savings Analysis and need to update permissi
 3.  In the terminal window at the bottom of the screen, **copy and paste the following command** and press **Enter**:
 
 ```bash
-chmod +x prosperops_onboard.sh && ./prosperops_onboard.sh
+chmod +x prosperops_onboard.sh && ./prosperops_upgrade.sh
 ```
