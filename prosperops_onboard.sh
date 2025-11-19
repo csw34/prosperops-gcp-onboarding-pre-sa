@@ -39,7 +39,7 @@ echo ""
 echo "1. Generating Custom Role Definition ($YAML_FILE)..."
 
 cat <<EOF > $YAML_FILE
-title: "ProsperOpsTestSep25"
+title: "ProsperOps"
 description: "Used by ProsperOps - www.prosperops.com. Must remain in place for ProsperOps to function correctly. Email help@prosperops.com for assistance."
 stage: "GA"
 includedPermissions:
