@@ -22,6 +22,12 @@ chmod +x prosperops_onboard.sh && ./prosperops_onboard.sh
 
 ## Discount Managemenet Onboarding Quick Start
 
-Click the button below to open the repository directly in Google Cloud Shell. This will automatically clone the script and open it in the editor.
+If you have already onboarded for a Savings Analysis and need to update permissions for automated discount management:
 
-COMING SOON
+<a href="https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/csw34/prosperops-gcp-onboarding-pre-sa&cloudshell_open_in_editor=prosperops_upgrade.sh" target="_blank">
+  <img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open Upgrade Script in Cloud Shell">
+</a>
+
+**Run Command:**
+```bash
+chmod +x prosperops_upgrade.sh && ./prosperops_upgrade.sh
