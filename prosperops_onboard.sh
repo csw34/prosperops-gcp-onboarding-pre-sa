@@ -35,7 +35,22 @@ read PRICING_DATASET_ID
 
 # --- 2. PREPARE VARIABLES ---
 
-# 1. Sanitize Billing ID for Table Name (Replace dashes '-' with underscores '_')
+# --- 2. DATA SANITIZATION & PREPARATION ---
+
+# Function to ensure Project:Dataset format (replaces first dot with colon if colon is missing)
+fix_dataset_format() {
+    local input=$1
+    if [[ "$input" != *":"* ]]; then
+        # Replace only the first dot with a colon
+        echo "${input/./:}"
+    else
+        echo "$input"
+    fi
+}
+
+# Apply fixes
+DETAILED_DATASET_ID=$(fix_dataset_format "$DETAILED_DATASET_ID")
+PRICING_DATASET_ID=$(fix_dataset_format "$PRICING_DATASET_ID")
 BILLING_ID_UNDERSCORES=${BILLING_ID//-/_}
 
 # 2. Construct Full Table Paths (Project:Dataset.Table)
