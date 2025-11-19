@@ -5,8 +5,9 @@ This repository contains the automated onboarding script for ProsperOps. This sc
 ## Quick Start
 
 Click the button below to open this repository directly in Google Cloud Shell. This will automatically clone the script and open it in the editor.
-
-[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/csw34/prosperops-gcp-onboarding-pre-sa&cloudshell_open_in_editor=prosperops_onboard.sh)
+<a href="https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/csw34/prosperops-gcp-onboarding-pre-sa&cloudshell_open_in_editor=prosperops_onboard.sh" target="_blank">
+  <img src="https://gstatic.com/cloudssh/images/open-btn.svg" alt="Open in Cloud Shell">
+</a>
 
 ## Instructions
 
