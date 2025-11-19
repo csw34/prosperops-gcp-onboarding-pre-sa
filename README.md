@@ -18,6 +18,7 @@ Click the button below to open this repository directly in Google Cloud Shell. T
 
 ```bash
 chmod +x prosperops_onboard.sh && ./prosperops_onboard.sh
+'''bash
 
 ## Discount Managemenet Onboarding Quick Start
 
